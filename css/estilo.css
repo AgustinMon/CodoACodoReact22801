@@ -1,0 +1,46 @@
+:root{
+    --fondo : #f0f0f0;
+    --color_separador1: #f5f5f5;
+    --color_separador2: rgb(207, 234, 252);
+}
+
+*{
+    
+    border: 1px solid #c0c0c0;
+}
+
+/* generales */
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    display: inline;
+}
+
+article{
+    width: 40%;
+    background-color: var(--color_separador2);
+    margin: 15px 15px 15px 15px;
+}
+
+/* particulares */
+
+body {
+    margin: 0 auto 0 auto;
+    width: 90%;
+}
+
+h1{
+    background-color: var(--color_separador1);
+}
+
+#flex{
+    display: flexbox;
+}
+
+footer{
+    width: 100%;
+    background-color: var(--fondo);
+
+}
