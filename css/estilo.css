@@ -24,6 +24,11 @@ article{
     margin: 15px 15px 15px 15px;
 }
 
+section{
+    display: flex;
+    justify-content: center;
+}
+
 /* particulares */
 
 body {
@@ -35,9 +40,7 @@ h1{
     background-color: var(--color_separador1);
 }
 
-#flex{
-    display: flexbox;
-}
+
 
 footer{
     width: 100%;
